@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CamMarket</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='asset/style.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</head>
+  <body>
+    <main>
+      <header class="container--fluid m-0 p-0">
+        <nav>
+          <!-- first header -->
+          <div class="first-header d-flex d-sm-flex flex-sm-row justify-content-center">
+            <div class="d-flex d-sm-flex header-items ">
+              <img src="images/gifts-solid.svg" alt="logo" class="nav-image" >
+              <p class="mt-3 pt-0 text-format header-text-color"> CamMarket</p>
+            </div>
+            <a class="mt-3 home d-none d-md-block icon-color text-decoration-none header-items" href="#"><i
+                class="fas fa-home"></i> HOME</a>
+            <a class="mt-3 d-none d-md-block header-text-color text-decoration-none header-items" href="#"><i
+                class="fas fa-th-large"></i> CATEGORISE</a>
+            <a class="mt-3 d-none d-md-block header-text-color text-decoration-none header-items" href="search.html"><i
+                  class="fas fa-search"></i> SEARCH</a> 
+            <div class="mt-3">
+              <a href="#" class="p-2 d-inline text-decoration-none hot-deals-button header-items">
+                SELL YOUR PRODUCTS
+              </a>
+            </div>
+            <div class="container-left">
+              <a href="#" class="mt-3 d-none d-md-block header-text-color text-decoration-none header-items">
+                <i class="far fa-envelope"></i>
+                <img src="images/git3.jpg" alt="Profile picture" width="40" height="30" style="border-radius: 100px; margin-left: 5px;"></a>
+          </div>
+          </div>
+          <!-- second header -->
+          <div class=" header-two align-center">
+            <div>
+              <h1 class="mb-0 pt-5 text-center header-font"><b> CamMarket</b></h1>
+              <h6 class="mb-0 text-center header-font-2">
+                Buy and sell beautifully crafted handmades
+              </h6>
+            </div>
+            <div class="">
+              <form class="input-row">
+                <div class="mb-1 col-3">
+                  <input type="text" class=" border-rad my-2" placeholder="All categories ">
+                </div>
+                <div class="mb-1 input-space col-3">
+                  <input type="text" class="border-rad border-rad my-2" placeholder="What are you searching?">
+                </div>
+                <div class="mb-1 input-space col-3">
+                  <input type="text" class="border-rad border-rad my-2" placeholder="CountryRegion">
+                </div>
+                <div class=" col-md-1 col mt-1 mb-2 form-font input-space search-button">
+                  <a href="#" class=" small mt-5 d-inline text-decoration-none text-center text-white ">
+                    Search
+                  </a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- article 1 -->
+      <section>
+        <h4 class="font-weight-bold small mx-3 mt-3 d-none d-md-block hot-deal">CRAFTS OF THE MONTH</h4>
+      <article class="mb-2 d-none d-md-block">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-12">
+              <div class="d-flex">
+                <div class="hot-deals d-flex">
+                  <div>
+                    <a href="#"><i class="fas fa-arrow-left text-dark arrows"></i></a>
+                  </div>
+                  <div>
+                    <img src="images/ring1.jpeg" alt="ring" class="img-fluid" />
+                  </div>
+                  <div>
+                    <h6 class="p-hot-deals"><b>Awesome homemade bird houses </b></h6>
+                    <p class="small hot-deals-text">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    </p>
+                  </div>
+                  <div>
+                    <a href="#"><i class="fas fa-arrow-right text-dark arrows"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center button-padding">
+                <a href="./search.html" class="p-2 d-inline text-decoration-none align-center hot-deals-button">
+                  50$
+                </a>
+                <a href="./search.html" class="p-2 d-inline text-decoration-none align-center hot-deals-button">
+                  <i class="fas fa-shopping-cart"></i>
+                  Buy
+                </a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <!-- section 1 -->
+      <div class="grid">
+        <section class="section-1 search-font">
+          <article class="container checkbox-font small">
+            <div class="row">
+              <div class="col-12 mt-1">
+                <div class="d-flex justify-content-between p-1 mb-2">
+                  <div>
+                    <input type="checkbox" id="buy" name="buy" value="buy" />
+                    <label for="buy"> New</label><br />
+                  </div>
+                  <div>
+                    <input
+                      type="checkbox"
+                      id="repairs"
+                      name="repairs"
+                      value="repairs"
+                    />
+                    <label for="repairs">Used</label><br />
+                  </div>
+                </div>
+                <h6 class="mt-2 border-bottom">Category</h6>
+                <input type="checkbox" id="ios9" name="ios9" value=" Ios9" />
+                <label for="ios9"> New</label><br />
+                <input type="checkbox" id="ios12" name="ios12" value="Ios12" />
+                <label for="ios12"> Used</label><br />
+                <input
+                  type="checkbox"
+                  id="ios14.4"
+                  name="Company"
+                  value="Company"
+                />
+                
+                <label for="Company"> Company</label><br />
+              </div>
+            </div>
+            <div class="col-12 mt-1">
+              <h6 class="mt-2 border-bottom">Category</h6>
+              <input
+                type="checkbox"
+                id="iphone12"
+                name="iphone12"
+                value=" iphone12"
+              />
+              <label for="New"> New</label><br />
+              <input
+                type="checkbox"
+                id="Iphone11"
+                name="Iphone11"
+                value="New"
+              />
+              <label for="Used"> Used</label><br />
+              <input
+                type="checkbox"
+                id="IphoneX"
+                name="IphoneX"
+                value="Used"
+              />
+              <label for="Custom"> Custom </label><br />
+            </div>
+            <div class="col-12 mt-1 border-bottom">
+              <h6 class="mt-2 border-bottom">Price Range</h6>
+              <input type="checkbox" id="$300" name="$300" value=" $300" />
+              <label for="$300"> $100 - $300</label><br />
+              <input type="checkbox" id="$500" name="$500" value="$500" />
+              <label for="$500"> $100 - $500</label><br />
+              <input type="checkbox" id="$600" name="$600" value="$600" />
+              <label for="$1500"> $50 - $600 </label><br />
+              <input type="checkbox" id="$500" name="$500" value="$500" />
+              <label for="$500"> Over $500 </label><br />
+            </div>
+          </article>
+        </section>
+        <!-- section 2 -->
+        <section class="search-font">
+          <article class="container results-font">
+              <div class="col-12">
+                <p class="mt-2 border-bottom">
+                  We found 38 results for your search. Please check below.
+                </p>
+                <div
+                class="d-flex d-sm-flex flex-row flex-sm-row border-bottom border-top"
+              >
+                <div class = "img-resp">
+                  <img src="images/ring4.jpeg" alt="iphone 11" class="" />
+                </div>
+                <div>
+                  <div class="mt-2">
+                    <h6 class="search-head">Shining Steel Collection</h6>
+                    <p class="add-info small">Awasome Work of Art</p>
+                  </div>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  </p>
+                  <p><b>Location:</b> Buea</p>
+                  <div class="d-flex flex-row justify-content-between">
+                    <div>
+                      <p>20 Jul 2020</p>
+                    </div>
+                    <div>
+                        <a
+                        href="#"
+                        class="p-1 mx-1 d-inline text-decoration-none text-center text-white price-button"
+                      >
+                        Negociate
+                      </a>
+                      <a
+                        href="#"
+                        class="p-1 mx-1 d-inline text-decoration-none text-center text-white price-button"
+                      >
+                        $100
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="col-12">
+                <div
+                class="d-flex d-sm-flex flex-row flex-sm-row border-bottom border-top"
+              >
+                <div class = "img-resp">
+                  <img src="images/ring4.jpeg" alt="iphone 11" class="" />
+                </div>
+                <div>
+                  <div class="mt-2">
+                    <h6 class="search-head">Shining Steel Collection</h6>
+                    <p class="add-info small">Awasome Work of Art</p>
+                  </div>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  </p>
+                  <p><b>Location:</b> Buea</p>
+                  <div class="d-flex flex-row justify-content-between">
+                    <div>
+                      <p>20 Jul, 2020</p>
+                    </div>
+                    <div>
+                        <a
+                        href="#"
+                        class="p-1 mx-1 d-inline text-decoration-none text-center text-white price-button"
+                      >
+                        Negociate
+                      </a>
+                      <a
+                        href="#"
+                        class="p-1 mx-1 d-inline text-decoration-none text-center text-white price-button"
+                      >
+                        $150
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="col-12">
+                <div
+                class="d-flex d-sm-flex flex-row flex-sm-row border-bottom border-top"
+              >
+                <div class = "img-resp">
+                  <img src="images/ring4.jpeg" alt="ring" class="" />
+                </div>
+                <div>
+                  <div class="mt-2">
+                    <h6 class="search-head">Shining Steel Collection</h6>
+                    <p class="add-info small">Awasome Work of Art</p>
+                  </div>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's 
+                    standard dummy text ever since the 1500s,
+                  </p>
+                  <p><b>Location:</b> Buea</p>
+                  <div class="d-flex flex-row justify-content-between">
+                    <div>
+                      <p>20 Jul, 2020</p>
+                    </div>
+                    <div>
+                        <a
+                        href="#"
+                        class="p-1 mx-1 d-inline text-decoration-none text-center text-white price-button"
+                      >
+                        Negociate
+                      </a>
+                      <a
+                        href="#"
+                        class="p-1 mx-1 d-inline text-decoration-none text-center text-white price-button"
+                      >
+                        $100
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="col-12">
+                <div
+                class="d-flex d-sm-flex flex-row flex-sm-row border-bottom border-top"
+              >
+                <div class = "img-resp">
+                  <img src="images/ring4.jpeg" alt="ring" class="" />
+                </div>
+                <div>
+                  <div class="mt-2">
+                    <h6 class="search-head">Shining Steel Collection</h6>
+                    <p class="add-info small">Awasome Work of Art</p>
+                  </div>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's 
+                    standard dummy text ever since the 1500s,
+                  </p>
+                  <p><b>Location:</b> Buea</p>
+                  <div class="d-flex flex-row justify-content-between">
+                    <div>
+                      <p>20 Jul, 2020</p>
+                    </div>
+                    <div>
+                        <a
+                        href="#"
+                        class="p-1 mx-1 d-inline text-decoration-none text-center text-white price-button"
+                      >
+                        Negociate
+                      </a>
+                      <a
+                        href="#"
+                        class="p-1 mx-1 d-inline text-decoration-none text-center text-white price-button"
+                      >
+                        $200
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="col-12">
+                <div
+                class="d-flex d-sm-flex flex-row flex-sm-row border-bottom border-top"
+              >
+                <div class = "img-resp">
+                  <img src="images/ring4.jpeg" alt="ring" class="" />
+                </div>
+                <div>
+                  <div class="mt-2">
+                    <h6 class="search-head">Shining Steel Collection</h6>
+                    <p class="add-info small">Awasome Work of Art</p>
+                  </div>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s,
+                  </p>
+                  <p><b>Location:</b> Buea</p>
+                  <div class="d-flex flex-row justify-content-between">
+                    <div>
+                      <p>20 Jul 2020</p>
+                    </div>
+                    <div>
+                        <a
+                        href="#"
+                        class="p-1 mx-1 d-inline text-decoration-none text-center text-white price-button"
+                      >
+                        Negociate
+                      </a>
+                      <a
+                        href="#"
+                        class="p-1 mx-1 d-inline text-decoration-none text-center text-white price-button"
+                      >
+                        $150
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="col-12">
+                <div
+                class="d-flex d-sm-flex flex-row flex-sm-row border-bottom border-top"
+              >
+                <div class = "img-resp">
+                  <img src="images/ring4.jpeg" alt="ring" class="" />
+                </div>
+                <div>
+                  <div class="mt-2">
+                    <h6 class="search-head">Shining Steel Collection</h6>
+                    <p class="add-info small">Awasome Work of Art</p>
+                  </div>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text 
+                    ever since the 1500s,
+                  </p>
+                  <p><b>Location:</b> Buea</p>
+                  <div class="d-flex flex-row justify-content-between">
+                    <div>
+                      <p>20 Jul 2020</p>
+                    </div>
+                    <div>
+                        <a
+                        href="#"
+                        class="p-1 mx-1 d-inline text-decoration-none text-center text-white price-button"
+                      >
+                        Negociate
+                      </a>
+                      <a
+                        href="#"
+                        class="p-1 mx-1 d-inline text-decoration-none text-center text-white price-button"
+                      >
+                        $200
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="col-12">
+                <div
+                class="d-flex d-sm-flex flex-row flex-sm-row border-bottom border-top"
+              >
+                <div class = "img-resp">
+                  <img src="images/ring4.jpeg" alt="Ring" class="" />
+                </div>
+                <div>
+                  <div class="mt-2">
+                    <h6 class="search-head">Shining Steel Collection</h6>
+                    <p class="add-info small">Awasome Work of Art</p>
+                  </div>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy 
+                    text ever since the 1500s,
+                  </p>
+                  <p><b>Location:</b> Buea</p>
+                  <div class="d-flex flex-row justify-content-between">
+                    <div>
+                      <p>20 Jul 2020</p>
+                    </div>
+                    <div>
+                        <a
+                        href="#"
+                        class="p-1 mx-1 d-inline text-decoration-none text-center text-white price-button"
+                      >
+                        Negociate
+                      </a>
+                      <a
+                        href="#"
+                        class="p-1 mx-1 d-inline text-decoration-none text-center text-white price-button"
+                      >
+                        $100
+                      </a>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+          </article>
+        </section>
+      </div>
+      <div class="col-6">
+        <div class="d-flex flex-column mt-5 item-right">
+          <h6 class=" border-bottom category-text">CATEGORIES</h6>
+          <div class="d-flex flex-row justify-content-between">
+            <a class="small text-decoration-none text-dark" href="./search.html">Lorem ipsum</a>
+            <a class="small text-decoration-none text-dark" href="./search.html">Lorem ipsum</a>
+          </div>
+          <div class="d-flex flex-row justify-content-between">
+            <a class="small text-decoration-none text-dark" href="./search.html">Lorem ipsum</a>
+            <a class="small text-decoration-none text-dark" href="./search.html">Lorem ipsum</a>
+          </div>
+          <div class="d-flex flex-row justify-content-between">
+            <a class="small text-decoration-none text-dark" href="./search.html">Lorem ipsum</a>
+            <a class="small text-decoration-none text-dark" href="./search.html">Lorem ipsum</a>
+          </div>
+          <div class="d-flex flex-row justify-content-between">
+            <a class="small text-decoration-none text-dark" href="./search.html">Lorem ipsum</a>
+            <a class="small text-decoration-none text-dark" href="./search.html">Lorem ipsum</a>
+          </div>
+          <div class="d-flex flex-row justify-content-between">
+            <a class="small text-decoration-none text-dark" href="./search.html">Lorem ipsum</a>
+            <a class="small text-decoration-none text-dark" href="./search.html">Lorem ipsum</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+</section>
+</main>
+<!-- footer -->
+<footer>
+<div class="d-flex flex-row flex-wrap small justify-content-center">
+<p>Copyright &copy;</p>
+<p>CamMarket.com</p>
+<p>All rights reserved.</p>
+<p>Designed by Collins Tatang</p>
+</div>
+</footer>
+
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+</script>
+
+</body>
+</html>
