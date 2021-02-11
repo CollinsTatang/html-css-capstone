@@ -1,7 +1,7 @@
 # html-css-capstone
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-![HTML CAPSTONE]()
+![HTML CAPSTONE](images/Screenshot.png)
 
 Clone of the The Next Web website page putting emphasis on how it behaves differently depending on the size of the screen.
 
@@ -32,12 +32,6 @@ HEAD TO
 - GitHub: [@CollinsTatang](https://github.com/CollinsTatang)
 - Twitter: [@CollinsTatang1](https://twitter.com/CollinsTatang1)
 - LinkedIn: [makungong-collins](https://www.linkedin.com/in/makungong-collins-b43260190/)
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 - Clone this repository with git clone```https://github.com/CollinsTatang/html-css-capstone.git`` using your terminal or command line.
