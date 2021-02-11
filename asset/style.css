@@ -1,5 +1,5 @@
 
-.container-left{
+.container-left {
     display: flex;
     margin-left: 250px;
 }
@@ -38,7 +38,7 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  background-color: #383838;
+ 
 }
 
 .icon-color {
