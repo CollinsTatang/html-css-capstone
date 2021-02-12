@@ -1,31 +1,30 @@
-# html-css-capstone
-![](https://img.shields.io/badge/Microverse-blueviolet)
+#  Online shop for electronics Page
 
-![HTML CAPSTONE](images/Screenshot.png)
+![](https://collinstatang.github.io/html-css-capstone/)
 
-Clone of the The Next Web website page putting emphasis on how it behaves differently depending on the size of the screen.
+## Capstone Project: Online shop for electronics
+
+> This project is a supposed Online shop for electronics page for Commercial Business. It consists of two pages and is responsive to mobile and desktop screens.
+
+![screenshot](images/Screenshot.png)
+
+This project features HTML5 semantic tags, CSS and Bootstrap.
 
 ## Built With
 
-- HTML5
-- CSS3
-- Bootstrap
+- HTML5, CSS3 and BOOTSTRAP
 
 ## Live Demo
 
-HEAD TO
-[CAPSTONE PROJECT](https://collinstatang.github.io/html-css-capstone/)
-=======
+[Live Demo Link](https://collinstatang.github.io/html-css-capstone/)
+
 
 ### Prerequisites
 
--  Knowledge about HTML, CSS and BOOTSTRAP
--  HTML Semantic elements
--  CSS flex property
--  CSS grid property
--  BOOTSTRAP Technology
+Knowledge of HTML Semantics CSS And BOOTSTRAP
 
-## Authors
+
+## Author
 
 👤 **Makungong Collins Tatang**
 
@@ -33,16 +32,11 @@ HEAD TO
 - Twitter: [@CollinsTatang1](https://twitter.com/CollinsTatang1)
 - LinkedIn: [makungong-collins](https://www.linkedin.com/in/makungong-collins-b43260190/)
 
-To get a local copy up and running follow these simple example steps.
-- Clone this repository with git clone```https://github.com/CollinsTatang/html-css-capstone.git`` using your terminal or command line.
-- Change to the project directory by entering : <br>
-```cd html-css-capstone``` in the terminal.
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/CollinsTatang/html-css-capstone.git).
 
 ## Show your support
 
@@ -52,8 +46,7 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
 
 ## 📝 License
 
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+This project is [Microverse](https://www.microverse.org/) licensed.
