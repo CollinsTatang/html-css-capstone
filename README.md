@@ -44,8 +44,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
+- [Collins Tatang and Atsighi Bright](https://www.notion.so/ZATTIX-design-full-view-606c7d2ec884405ab251fed8ab724258) for the project guidelines.
+- [Microverse](https://www.microverse.org/) for their `README` [template](https://github.com/microverseinc/readme-template).
 
 ## 📝 License
 
